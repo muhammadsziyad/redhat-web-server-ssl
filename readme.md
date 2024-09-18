@@ -51,11 +51,7 @@ graph TD;
 
 -   **Install RHEL**: Ensure RHEL is installed and updated on the server node.
 -   **Update System**:
-    
-    bash
-    
-    Copy code
-    
+       
     `sudo yum update -y` 
     
 
@@ -77,10 +73,11 @@ graph TD;
     -   Create a file at `/var/www/html/index.html` with:
 
         
-        `<html>
+        ```html
+	<html>
         <head><title>Welcome to My Website</title></head>
         <body><h1>Hello, World!</h1></body>
-        </html>` 
+        </html>``` 
         
 
 ### 3. SSL/TLS Configuration
