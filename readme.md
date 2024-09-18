@@ -71,13 +71,13 @@ graph TD;
     
 -   **Create a Basic Website**:
     -   Create a file at `/var/www/html/index.html` with:
-
-        
-        ```html
+	
+	```html
 	<html>
         <head><title>Welcome to My Website</title></head>
         <body><h1>Hello, World!</h1></body>
-        </html>``` 
+        </html>
+	``` 
         
 
 ### 3. SSL/TLS Configuration
